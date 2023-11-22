@@ -1,0 +1,40 @@
+
+
+.mision {
+    box-sizing: border-box;
+    min-height: 30vh;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex; 
+    border: 5px solid black ;
+    background: grey;
+    margin: 0%;
+}
+
+.vision {
+    box-sizing: border-box;
+    min-height: 30vh;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex; 
+    border: 5px solid black ;
+    background: grey;
+    margin: 0%;
+}
+
+.quienessomos {
+    box-sizing: border-box;
+    min-height: 30vh;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex; 
+    border: 5px solid black ;
+    background: grey;
+    margin: 0%;
+}

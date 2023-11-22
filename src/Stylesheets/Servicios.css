@@ -1,0 +1,73 @@
+.contenedorservicios {
+    box-sizing: border-box;
+    min-height: 50vh;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    background: grey;
+    margin: 3%; 
+    text-align: center;
+}
+
+.contenedorserv {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 0vh;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    justify-items: auto;
+    position: relative;
+    display: flex; 
+    border: 5px solid black ;
+    background: grey;
+    margin: 0%; 
+
+
+}
+
+.tituloservicios {
+    box-sizing: border-box;
+    min-height: 0vh;
+    color: rgb(15, 55, 105);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex; 
+    border: 5px solid gray ;
+    background: black;
+    margin: 0%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.textoservicio {
+    box-sizing: border-box;
+    min-height: 10vh;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 5px solid black ;
+    display: flex; 
+    flex-direction: column;
+    background: grey;
+    margin: 0%; 
+    text-align: center;
+}
+.freeasoria {
+    border: solid black;
+}
+.premiumasoria {
+
+    border: solid black;
+
+}
+
+.colorlink {
+    color: red;
+    
+}
