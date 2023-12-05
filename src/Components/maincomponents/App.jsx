@@ -15,6 +15,7 @@ import { Cursos } from '../pagesservices/pagescurso/Cursos.jsx';
 import { CursoAsistencial } from '../pagesservices/pagescurso/CursoAsistencial.jsx';
 import { CursoProfesional } from '../pagesservices/pagescurso/CursoProfesional.jsx';
 import { CursoTecnico } from '../pagesservices/pagescurso/CursoTecnico.jsx';
+import Slider from './Slider.jsx'
 
 export function App() {
   return <div className="App">
@@ -37,6 +38,7 @@ export function App() {
           <Route path='/cursoprofesional' element={<CursoProfesional/>}/>
         </Routes>
       </Router>
+      <Slider></Slider>
       </body>
     </div>
       ;
