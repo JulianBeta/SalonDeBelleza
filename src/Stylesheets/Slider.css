@@ -2,6 +2,7 @@
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
+    max-height: 14pv;
   }
   
   .swiper-slide {
@@ -27,4 +28,12 @@
 
   .swiper-container {
     background: #D89A9A;
+  }
+
+  .swiperx {
+    overflow: hidden  
+  }
+
+  .container {
+    overflow: hidden;
   }
