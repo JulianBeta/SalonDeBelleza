@@ -1,8 +1,14 @@
+@font-face {
+    font-family: 'NewMacchiato';
+    src: url('../assets/fonts/New\ Machiato.otf') format('truetype');
+  }
+
 .footerprobe {
     padding: 1% 1.5%;
     background: #D89A9A;
     bottom: 0;
     width: 100%;
     color: gray;
+    font-family: 'NewMacchiato';
 
 }
