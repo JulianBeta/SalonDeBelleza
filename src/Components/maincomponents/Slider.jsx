@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import '../../Stylesheets/Slider.css'
+import './../../Stylesheets/Slider.css'
 
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from 'swiper/modules';
 
@@ -19,13 +19,13 @@ import slide_image_5 from '../../assets/image/temis2.jpg';
 export const Slider = () => {
   return (
     <div className="container">
-      <h1 className="heading">Slider Gallery</h1>
-      <Swiper
+      <Swiper 
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        slidesPerView={'3'}
+        
+        slidesPerView={'2'}
         touchAngle={45}
         touchEventsTarget='container'
         autoplay={{
@@ -33,17 +33,18 @@ export const Slider = () => {
           disableOnInteraction: false,
         }}
         coverflowEffect={{
-          rotate: 1,
-          stretch: 3,
+          rotate: 4,
+          stretch: 1,
           depth: 100,
-          modifier: 2.5,
+          modifier: 2,
+           
         }}
-        pagination={{ el: '.swiper-pagination', clickable: true }}
-        navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-          clickable: true,
-        }}
+        //pagination={{ el: '.swiper-pagination', clickable: true }}
+        // navigation={{
+        //   nextEl: '.swiper-button-next',
+        //   prevEl: '.swiper-button-prev',
+        //   clickable: true,
+        // }}
         modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
         className="swiper_container"
       >
@@ -79,14 +80,14 @@ export const Slider = () => {
         </SwiperSlide>
 
         <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
+          {/* <div className="swiper-button-prev slider-arrow">
             <ion-icon name="arrow-back-outline"></ion-icon>
-          </div>
-          <div className="swiper-button-next slider-arrow">
+          </div> */}
+          {/* <div className="swiper-button-next slider-arrow">
             <ion-icon name="arrow-forward-outline"></ion-icon>
-          </div>
-          <div className="swiper-pagination"></div>
-        </div>
+          </div> */}
+          {/* <div className="swiper-pagination"></div> */}
+       </div> 
       </Swiper>
     </div>
   );

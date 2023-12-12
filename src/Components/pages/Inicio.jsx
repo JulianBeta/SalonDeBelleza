@@ -2,6 +2,7 @@ import React from 'react'
 import Galeria from './../maincomponents/Galeria.jsx';
 import './../../Stylesheets/Inicio.css'
 //import GaleriaMovil from '../maincomponents/Galeriamovil.jsx';
+import { WhatsApp } from '../maincomponents/WhatsApp.jsx';
 
 export const Inicio = () => {
   return (
@@ -20,7 +21,13 @@ export const Inicio = () => {
           <h1>Visión:</h1>  <p>Nos visualizamos como líderes innovadores en el ámbito del acompañamiento jurídico, así como en la capacitación y asesoría
             especializada a lo largo del proceso de selección e ingreso a la función pública, siendo reconocidos a nivel nacional por un servicio 
             técnico de alta calidad, enfocado a lograr que cada uno de nuestros cliente acceda al mejor empleo público posible de acuerdo a su perfil, por una tarifa justa</p>   
-        </div>
+        </div> 
+        <button className='botonwhatsapp'>
+        <a href='https://api.whatsapp.com/send/?phone=573006822639'> Envíanos un Whatsapp </a>
+
+        <WhatsApp/>
+        </button>
+        
         {/* <div>
           {<GaleriaMovil />}
         </div> */}
