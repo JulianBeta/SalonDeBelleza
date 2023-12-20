@@ -24,19 +24,20 @@ export const Slider = () => {
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        
-        slidesPerView={'2'}
-        touchAngle={45}
+        spaceBetween={100}
+        slidesPerView={'3'}
+        touchAngle={0}
         touchEventsTarget='container'
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
+        autoHeight={true}
+        // autoplay={{
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // }}
         coverflowEffect={{
           rotate: 4,
-          stretch: 1,
+          stretch: 20,
           depth: 100,
-          modifier: 2,
+          modifier: 0,
            
         }}
         //pagination={{ el: '.swiper-pagination', clickable: true }}
