@@ -38,7 +38,7 @@ export function App() {
           <Route path='/cursoprofesional' element={<CursoProfesional/>}/>
         </Routes>
       </Router>
-      <Slider></Slider>
+      {/* <Slider></Slider> */}
       </body>
     </div>
       ;

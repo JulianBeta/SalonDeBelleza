@@ -73,7 +73,7 @@ section{
     float: right;
 }
 
-.divmarcadeagua {
+.seccionprimera {
     background-image: url("./../assets/image/flores.jpeg");
     background-repeat: no-repeat;
     background-position: center;
@@ -83,4 +83,11 @@ section{
     background-color: #F4ECE1;
     padding: 50px;
     
+}
+
+.seccionsegunda {
+    max-width: 40 px;
+
+
+
 }

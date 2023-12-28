@@ -23,6 +23,7 @@ export const Slider = () => {
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
+        
         loop={true}
         spaceBetween={100}
         slidesPerView={'3'}

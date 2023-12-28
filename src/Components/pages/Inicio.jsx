@@ -5,12 +5,13 @@ import './../../Stylesheets/Inicio.css'
 import { WhatsApp } from '../maincomponents/WhatsApp.jsx';
 import flores from './../../assets/image/flores.jpeg'
 import peluquera from './../../assets/image/peluquera.jpeg'
+import Slider from '../maincomponents/Slider.jsx';
 
 
 export const Inicio = () => {
   return (
     <body>
-      <div className='divmarcadeagua'>
+      <div className='seccionprimera'>
         {/* <div>
           <img src={ flores } className='flores'/>
         </div> */}
@@ -32,6 +33,10 @@ export const Inicio = () => {
         </button>
         </div>
         
+      </div>
+      <div >
+        <Slider className='seccionsegunda'/>
+
       </div>
       
     </body>
