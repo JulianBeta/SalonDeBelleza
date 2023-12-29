@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500&display=swap');
 
-@font-face {
-    font-family: 'NewMacchiato';
-    src: url('../assets/fonts/New\ Machiato.otf') format('truetype');}
+
 
 *{
     padding: 0;
@@ -24,7 +22,7 @@ html, body {
     width: 100%;
     height: auto;
     margin: auto;
-    font-family: 'NewMacchiato';
+    font-family: 'Gabarito';
     min-height: 100vh;
     
 }

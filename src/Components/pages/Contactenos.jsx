@@ -18,7 +18,8 @@ export const Contactenos = () => {
   };
 
   return (
-    <body className='formulario'>
+    <body>
+      <div>
       <form ref={form} onSubmit={sendEmail}>
         <div>
           <label>Nombre</label>
@@ -38,6 +39,8 @@ export const Contactenos = () => {
           <input type="submit" value="Send" />
         </div>
       </form>
+      </div>
+      
     </body>
   );
 };
