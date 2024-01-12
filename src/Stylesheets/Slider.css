@@ -1,54 +1,18 @@
-.swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    max-height: 14pv;
-  }
-  
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 373px;
-    height: 462px;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 373px;
-    height: 462px;
-    border-radius: 60px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-  .swiper-button-next {
-    color:black;
-  }
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
-  .swiper-slide-next {
-    height: 5%;
-    width: 5%;
-  }
+body {
+	background: #EDE9E7;
+	font-family: 'Poppins', sans-serif;
+}
 
-  .swiper-container {
-    background: #F4ECE1;
-  }
-
-  .swiperx {
-    overflow: hidden  
-  }
-
-  .container {
-    overflow: hidden;
-  }
-
-  body {
-    background-color: #F4ECE1;
-  }
-
-  .swiper-slide-shadow-coverflow {
-    opacity: 0;
-  }
-
-  body > div > div > div.swiper-wrapper > div.swiper-slide.swiper-slide-visible.swiper-slide-next {
-    height: 117px;
-    width: 162px;
-  }
+main {
+	max-width: 1000px;
+	margin: 50px auto;
+	overflow: hidden;
+}
