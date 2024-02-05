@@ -1,0 +1,21 @@
+.maincarrusel {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .image-carousel {
+    display: flex;
+  }
+  
+  .carousel-image {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .main-image {
+    width: 300px;
+  }
+  
+  .side-image {
+    width: 150px;
+  }

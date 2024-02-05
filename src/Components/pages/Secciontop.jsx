@@ -1,7 +1,7 @@
 import React from 'react'
 import './../../Stylesheets/Inicio.css'
 import peluquera from './../../assets/image/peluquera.jpeg'
-import { Galeria } from '../maincomponents/Galeria'
+
 
 export const Secciontop = () => {
     return (
@@ -20,7 +20,7 @@ export const Secciontop = () => {
                 <button className='botonwhatsapp'>
                     <a href='https://api.whatsapp.com/send/?phone=573006822639'> Envíanos un Whatsapp </a>
                 </button>
-                <Galeria/>
+               
             </div>
         </body>
 

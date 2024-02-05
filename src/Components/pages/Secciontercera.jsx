@@ -6,32 +6,32 @@ import img1 from './../../assets/image/1.jpg';
 import img2 from './../../assets/image/2.jpg';
 import img3 from './../../assets/image/3.jpg';
 import img4 from './../../assets/image/4.jpg';
+import Maincarrusel from './../carruselcomponents/maincarrusel.jsx'
 
-const Secciontercera= () => {
+import img6 from './../../assets/image/peluquera.jpeg';
+
+
+export const Secciontercera= () => {
 	return (
-		<main>
-			
+		// <div>
 
-			<Titulo>Productos Destacados</Titulo>
-			<Slideshow controles={true} autoplay={true} velocidad="3000" intervalo="5000">
-				<Slide>
-					<a href="https://www.falconmaters.com">
-						<img src={img1} alt=""/>
-					</a>
-					<TextoSlide colorFondo="navy">
-						<p>15% descuento en productos Apple</p>
-					</TextoSlide>
-				</Slide>
-				<Slide>
-					<a href="https://www.falconmaters.com">
-						<img src={img2} alt=""/>
-					</a>
-					<TextoSlide>
-						<p>15% descuento en productos Apple</p>
-					</TextoSlide>
-				</Slide>
-			</Slideshow>
-		</main>
+
+		// <div className='contenedorcarrusel'>
+		// 	{/* <div className='carrusel'>
+		// 	<img src={img1}/>
+		// 	<img src={img2}/>	
+		// 	<img src={img3}/>
+		// 	<img src={img4}/>	
+			
+		// 	<img src={img6}/>	 */}
+			
+		// 	</div>	
+		
+		
+		// </div> 
+	
+		<div><Maincarrusel/> </div>
+
 	);
 }
 

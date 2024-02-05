@@ -4,6 +4,12 @@ import Logo from './../../assets/image/logo_SalonDeBelleza.png'
 export const Seccioncontactenos = () => {
     return (
         <body>
+
+            
+
+
+
+
             <h1>CONTACTOS</h1>
             <div className='contacto'>
                 <h3>Te esperamos</h3>

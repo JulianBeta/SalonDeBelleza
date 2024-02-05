@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 * {
 	padding: 0;
@@ -6,13 +6,62 @@
 	box-sizing: border-box;
 }
 
-body {
-	background: #EDE9E7;
-	font-family: 'Poppins', sans-serif;
-}
+
 
 main {
-	max-width: 1000px;
+	max-width: 50%;
 	margin: 50px auto;
 	overflow: hidden;
+}
+ */
+
+ .contenedorcarrusel 
+ 
+ {
+	
+	border: solid black 10px;
+	
+    position: relative;
+	align-self: center;
+	
+	
+	
+ }
+
+ .carrusel {
+	position: relative;
+	left: 700px;
+	display: flex;
+	height: 430px;
+	width: 600px;
+	
+	
+	justify-content: center;
+	
+
+ }
+
+ .carrusel img {
+	width: 30px;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: .8;
+	transition: .5s ease;
+	left: calc(50% - 110px);
+ }
+
+ .carrusel img:hover {
+		width: 300px;
+		height: 600px;
+		opacity: 1.2;
+		filter: contrast(150%);
+ }
+
+ .contenedorPrincipal {
+	position: relative;
+ }
+
+.contenedorSlideshow {
+	display: flex;
+	flex-wrap: nowrap;
 }

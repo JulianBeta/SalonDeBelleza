@@ -16,7 +16,7 @@ const Slideshow = ({
 
 	const siguiente = useCallback(() => {
 		// Comprobamos que el slideshow tenga elementos
-		if(slideshow.current.children.length > 0){
+		if(slideshow.current.children.length > 0) {
 			console.log('Siguiente')
 
 			// Obtenemos el primer elemento del slideshow.
@@ -86,31 +86,46 @@ const Slideshow = ({
 		}
 	}, [autoplay, intervalo, siguiente]);
 
-	return (
-		<ContenedorPrincipal>
-			<ContenedorSlideshow ref={slideshow}>
-				{children}
-			</ContenedorSlideshow>
-			{controles && <Controles>
-				<Boton onClick={anterior}>
-					<img src={FlechaIzquierda} />
-				</Boton>
-				<Boton derecho onClick={siguiente}>
-					<img src= {FlechaDerecha} />
-				</Boton>
-			</Controles>}
-		</ContenedorPrincipal>
+	// return (
+	// 	<ContenedorPrincipal>
+	// 		<ContenedorSlideshow ref={slideshow}>
+	// 			{children}
+	// 		</ContenedorSlideshow>
+	// 		{controles && <Controles>
+	// 			<Boton onClick={anterior}>
+	// 				<img src={FlechaIzquierda} />
+	// 			</Boton>
+	// 			<Boton derecho onClick={siguiente}>
+	// 				<img src= {FlechaDerecha} />
+	// 			</Boton>
+	// 		</Controles>}
+	// 	</ContenedorPrincipal>
+
+return (
+	<div className='contenedorPrincipal'>
+		<div className='contenedorSlideshow' ref={slideshow}>
+			{children}
+		</div>
+		{controles && <Controles>
+			<Boton onClick={anterior}>
+				<img src={FlechaIzquierda} />
+			</Boton>
+			<Boton derecho onClick={siguiente}>
+				<img src= {FlechaDerecha} />
+			</Boton>
+		</Controles>}
+	</div>
 	);
 }
 
-const ContenedorPrincipal = styled.div`
-	position: relative;
-`;
+// const ContenedorPrincipal = styled.div`
+// 	position: relative;
+// `;
 
-const ContenedorSlideshow = styled.div`
-	display: flex;
-	flex-wrap: nowrap;
-`;
+// const ContenedorSlideshow = styled.div`
+// 	display: flex;
+// 	flex-wrap: nowrap;
+// `;
 
 const Slide = styled.div`
 	min-width: 100%;
