@@ -1,54 +1,67 @@
-.swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    max-height: 14pv;
-  }
-  
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 373px;
-    height: 462px;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 373px;
-    height: 462px;
-    border-radius: 60px;
-  }
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-  .swiper-button-next {
-    color:black;
-  }
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
-  .swiper-slide-next {
-    height: 5%;
-    width: 5%;
-  }
 
-  .swiper-container {
-    background: #F4ECE1;
-  }
 
-  .swiperx {
-    overflow: hidden  
-  }
+main {
+	max-width: 50%;
+	margin: 50px auto;
+	overflow: hidden;
+}
+ */
 
-  .container {
-    overflow: hidden;
-  }
+ .contenedorcarrusel 
+ 
+ {
+	
+	border: solid black 10px;
+	
+    position: relative;
+	align-self: center;
+	
+	
+	
+ }
 
-  body {
-    background-color: #F4ECE1;
-  }
+ .carrusel {
+	position: relative;
+	left: 700px;
+	display: flex;
+	height: 430px;
+	width: 600px;
+	
+	
+	justify-content: center;
+	
 
-  .swiper-slide-shadow-coverflow {
-    opacity: 0;
-  }
+ }
 
-  body > div > div > div.swiper-wrapper > div.swiper-slide.swiper-slide-visible.swiper-slide-next {
-    height: 117px;
-    width: 162px;
-  }
+ .carrusel img {
+	width: 30px;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: .8;
+	transition: .5s ease;
+	left: calc(50% - 110px);
+ }
+
+ .carrusel img:hover {
+		width: 300px;
+		height: 600px;
+		opacity: 1.2;
+		filter: contrast(150%);
+ }
+
+ .contenedorPrincipal {
+	position: relative;
+ }
+
+.contenedorSlideshow {
+	display: flex;
+	flex-wrap: nowrap;
+}

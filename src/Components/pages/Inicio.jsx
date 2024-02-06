@@ -9,6 +9,8 @@ import { Seccioncontactenos } from './Seccioncontactenos.jsx';
 //import {Slider} from './../maincomponents/Slider.jsx'
 import { Secciontop } from './Secciontop.jsx';
 import { SeccionSlider } from './SeccionSlider.jsx';
+import { Secciontercera } from './Secciontercera.jsx';
+
 
 export const Inicio = () => {
   return (
@@ -17,7 +19,8 @@ export const Inicio = () => {
       <div><Secciontop/></div>
              
         <div><SeccionSlider/></div>
-        
+        <div><Secciontercera/></div>
+
         <div><Seccioncontactenos/></div>
         
         
