@@ -3,13 +3,13 @@
     overflow: hidden;
     position: relative;
     text-align: center;
-    margin: 50px;
-    width: 50%;
+    width: 100%;
 
   }
   
   .image-carousel {
-    display: flex;
+
+    width: 100%;
   }
   
   .carousel-image {

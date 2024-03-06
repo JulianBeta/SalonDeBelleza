@@ -17,18 +17,10 @@ export const Inicio = () => {
   return (
     <body>
 
-      <div><Secciontop/></div>
-             
+        <div><Secciontop/></div> 
         <div><SeccionSlider/></div>
         <div><Secciontercera/></div>
-        
-        <div><Appcarrusel/></div>
-
         <div><Seccioncontactenos/></div>
-        
-        
-      
-
       
     </body>
   )
