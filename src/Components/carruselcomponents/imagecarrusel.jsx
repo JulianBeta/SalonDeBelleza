@@ -17,26 +17,45 @@ const ImageCarousel = ({ images, selectedIndex, handleImageClick }) => {
     }
   };
 
-  return (
-    <div className="image-carousel-container" ref={containerRef}>
-      <div className="image-carousel">
-        {images.map((image, index) => (
-          <Image
-            key={index}
-            src={`/image/${image}`} 
-            isSelected={index === selectedIndex}
-            onClick={() => handleImageClick(index)}
-          />
-        ))}
-      </div>
-      <button className="scroll-button left" onClick={() => handleScroll('left')}>
-        &lt;
-      </button>
-      <button className="scroll-button right" onClick={() => handleScroll('right')}>
-        &gt;
-      </button>
-    </div>
-  );
+  const getNormalizedIndex = (index) => {
+    const length = images.length;
+    if (index < 0) {
+      return length + (index % length);
+    }
+    return index % length;
+  };
+
+  const renderImages = () => {
+    const normalizedIndex = getNormalizedIndex(selectedIndex);
+
+    return [-1, 0, 1].map((offset) => {
+      const index = getNormalizedIndex(normalizedIndex + offset);
+      return (
+        <Image
+          key={index}
+          src={`/image/${images[index]}`}
+          isSelected = { offset === 0}
+          onClick = {() => handleImageClick(index)}
+        />
+      );
+    });
+  };
+
+return (
+  <div className="image-carousel-container" ref={containerRef}>
+    <div className="image-carousel">{renderImages()}</div>
+    {/* <button className="scroll-button left" onClick={() => handleScroll('left')}>
+      &lt;
+    </button>
+    <button className="scroll-button right" onClick={() => handleScroll('right')}>
+      &gt;
+    </button> */}
+  </div>
+);
+
+
+  
+  
 };
 
 export default ImageCarousel;

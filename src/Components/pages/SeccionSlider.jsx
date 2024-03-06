@@ -9,47 +9,10 @@ import img4 from './../../assets/image/4.jpg';
 
 export const SeccionSlider= () => {
 	return (
-		<main>
-			
-
-			<Titulo>Productos Destacados</Titulo>
-			<Slideshow controles={true} autoplay={true} velocidad="3000" intervalo="5000">
-				<Slide>
-					<a href="https://www.falconmaters.com">
-						<img src={img1} alt=""/>
-					</a>
-					<TextoSlide colorFondo="navy">
-						<p>15% descuento en productos Apple</p>
-					</TextoSlide>
-				</Slide>
-				<Slide>
-					<a href="https://www.falconmaters.com">
-						<img src={img2} alt=""/>
-					</a>
-					<TextoSlide>
-						<p>15% descuento en productos Apple</p>
-					</TextoSlide>
-					
-				</Slide>
-				<Slide>
-					<a href="https://www.falconmaters.com">
-						<img src={img3} alt=""/>
-					</a>
-					<TextoSlide>
-						<p>15% descuento en productos Apple</p>
-					</TextoSlide>
-					
-				</Slide>
-			</Slideshow>
-		</main>
+		<div>Sección segunda</div>
+		
 	);
 }
 
-const Titulo = styled.p`
-	font-size: 18px;
-	font-weight: 700;
-	text-transform: uppercase;
-	margin-bottom: 10px;
-`;
- 
+
 export default SeccionSlider;

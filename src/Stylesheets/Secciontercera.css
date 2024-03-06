@@ -1,6 +1,11 @@
 .maincarrusel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
     text-align: center;
     margin: 50px;
+    width: 50%;
+
   }
   
   .image-carousel {

@@ -13,25 +13,10 @@ import img6 from './../../assets/image/peluquera.jpeg';
 
 export const Secciontercera= () => {
 	return (
-		// <div>
-
-
-		// <div className='contenedorcarrusel'>
-		// 	{/* <div className='carrusel'>
-		// 	<img src={img1}/>
-		// 	<img src={img2}/>	
-		// 	<img src={img3}/>
-		// 	<img src={img4}/>	
-			
-		// 	<img src={img6}/>	 */}
-			
-		// 	</div>	
-		
-		
-		// </div> 
-	
-		<div><Maincarrusel/> </div>
-
+		<div className='secciontercera'> 
+		<div className='textotercero'>Texto</div>
+		<div className='carruseltercero'><Maincarrusel/> </div>
+</div>
 	);
 }
 

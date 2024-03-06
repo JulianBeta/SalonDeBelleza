@@ -14,6 +14,13 @@ main {
 	overflow: hidden;
 }
  */
+.secciontercera {
+	position: relative;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	overflow: hidden;
+}
+
 
  .contenedorcarrusel 
  
@@ -65,3 +72,4 @@ main {
 	display: flex;
 	flex-wrap: nowrap;
 }
+

@@ -11,6 +11,7 @@ import { Secciontop } from './Secciontop.jsx';
 import { SeccionSlider } from './SeccionSlider.jsx';
 import { Secciontercera } from './Secciontercera.jsx';
 
+import Appcarrusel from '../nuevocarrusel/appcarrusel.jsx';
 
 export const Inicio = () => {
   return (
@@ -20,6 +21,8 @@ export const Inicio = () => {
              
         <div><SeccionSlider/></div>
         <div><Secciontercera/></div>
+        
+        <div><Appcarrusel/></div>
 
         <div><Seccioncontactenos/></div>
         

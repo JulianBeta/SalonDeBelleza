@@ -106,14 +106,14 @@ return (
 		<div className='contenedorSlideshow' ref={slideshow}>
 			{children}
 		</div>
-		{controles && <Controles>
+		{/* {controles && <Controles>
 			<Boton onClick={anterior}>
 				<img src={FlechaIzquierda} />
 			</Boton>
 			<Boton derecho onClick={siguiente}>
 				<img src= {FlechaDerecha} />
 			</Boton>
-		</Controles>}
+		</Controles>} */}
 	</div>
 	);
 }
@@ -128,9 +128,9 @@ return (
 // `;
 
 const Slide = styled.div`
-	min-width: 100%;
+	width: 50%;
 	overflow: hidden;
-	transition: .3s ease all;
+	transition: .1s ease all;
 	z-index: 10;
 	/* max-height: 500px; */
 	position: relative;
