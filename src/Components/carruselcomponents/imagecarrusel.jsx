@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import './imagecarrusel.css';
+import './../../Stylesheets/imagecarrusel.css';
 import Image from './image.jsx';
 
 

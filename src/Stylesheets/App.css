@@ -12,7 +12,7 @@
 htlm, header {
     background: rgba(0,0,0,0.9);
     width: 100%;
-    position: relative;
+    position: fixed;
     z-index: 50;
     top: 0
 }
@@ -24,6 +24,12 @@ html, body {
     margin: auto;
     font-family: 'Gabarito';
     min-height: 100vh;
+    background-color: #F4ECE1;
+    padding-top: 90px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    
     
 }
 
@@ -34,4 +40,8 @@ main {
     margin: 50px auto;
     overflow: hidden;
     text-align: center;
+}
+
+li {
+  list-style: none;  
 }

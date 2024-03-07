@@ -1,5 +1,5 @@
 import React from 'react';
-import './Image.css';
+import './../../Stylesheets/image.css';
 
 const Image = ({ src, isSelected, onClick }) => {
   const imageSize = isSelected ? 'main-image' : 'side-image';

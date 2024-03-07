@@ -1,5 +1,5 @@
 import React from 'react';
-import {Slideshow, Slide, TextoSlide} from './../maincomponents/Galeria.jsx'
+
 import './../../Stylesheets/Slider.css';
 import styled from 'styled-components';
 import img1 from './../../assets/image/1.jpg';
@@ -13,10 +13,11 @@ import img6 from './../../assets/image/peluquera.jpeg';
 
 export const Secciontercera= () => {
 	return (
+		<body>
 		<div className='secciontercera'> 
 		<div className='textotercero'>Texto</div>
 		<div className='carruseltercero'><Maincarrusel/> </div>
-</div>
+</div></body>
 	);
 }
 

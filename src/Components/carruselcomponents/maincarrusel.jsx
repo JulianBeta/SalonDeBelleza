@@ -10,7 +10,7 @@ import { EffectCoverflow, Pagination, Navigation, Autoplay } from 'swiper/module
 
 const Maincarrusel = () => {
 
-    const imageFilenames = ['escritorio.jpg', 'flores.jpeg', 'fotopeluquera.png', 'imagenbogota.jpg', 'imagencursos.jpg', 'imagenoficina.jpg']; 
+    const imageFilenames = ['escritorio.jpg', 'flores.jpeg', 'temis2.jpg', 'imagenbogota.jpg', 'imagencursos.jpg', 'imagenoficina.jpg']; 
 
   const [selectedIndex, setSelectedIndex] = useState(0);
 

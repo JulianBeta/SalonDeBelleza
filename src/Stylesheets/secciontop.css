@@ -1,0 +1,84 @@
+.mision {
+    box-sizing: border-box;
+    min-height: 30vh;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex; 
+    border: 5px solid black ;
+    background: grey;
+    margin: 0%;
+}
+
+.vision {
+    box-sizing: border-box;
+    min-height: 30vh;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex; 
+    border: 5px solid black ;
+    background: grey;
+    margin: 0%;
+}
+
+.quienessomos {
+    box-sizing: border-box;
+    min-height: 30vh;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex; 
+    border: 5px solid black ;
+    background: grey;
+    margin: 0%;
+}
+
+.botonwhatsapp{
+    
+    position: absolute;
+    top: 400px;
+    background-color: #000;
+    right: 300px;
+    overflow: visible;
+    float: right;
+
+}
+
+
+section{
+    
+    position: relative;
+    top: 3px;
+    width: 100%;
+    background-color: #F4ECE1;
+    padding: 50px;
+    
+    
+}
+
+.fotopeluquera {
+    position: relative;
+    width: 60%;
+    float: left;
+}
+
+.textsectiontop {
+    width: 30%;
+    float: right;
+}
+
+.divmarcadeagua {
+    background-image: url("./../assets/image/flores.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;position: relative;
+    top: 3px;
+    width: 100%;
+    background-color: #F4ECE1;
+    padding: 50px;
+    
+}

@@ -15,21 +15,14 @@ export const Barranavegacion = () => {
                         <li className="padding-item">
                             <Link to="/">INICIO</Link>
                         </li>
-                        <li >
-                            <Link to="/servicios">CONÓCEME</Link>
-                        </li>
-                        <li >
-                            <Link to="/servicios">SERVICIOS</Link>
-                        </li>
+                        
                         <li >
                             <Link to="/"> 
                                 <img src = {logo} alt = 'logo' style={{ maxWidth: '100px', maxHeight: '50px' }} ></img>
                             </Link>
                                
                         </li> 
-                        <li >
-                            <Link to="/tarifas">PRODUCTOS</Link>
-                        </li>
+                       
                         <li >
                             <Link to="/contactenos">AGENDA TU CITA</Link>
                         </li>

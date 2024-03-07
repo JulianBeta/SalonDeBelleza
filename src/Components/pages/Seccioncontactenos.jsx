@@ -5,11 +5,6 @@ export const Seccioncontactenos = () => {
     return (
         <body>
 
-            
-
-
-
-
             <h1>CONTACTOS</h1>
             <div className='contacto'>
                 <h3>Te esperamos</h3>
@@ -20,12 +15,7 @@ export const Seccioncontactenos = () => {
                     <ul>Instagram</ul>
                     <ul>Correo</ul>
                 </li>
-                <img src={Logo}/>
-
-
-                
-
-
+                <img src={Logo} />
             </div>
 
         </body>
