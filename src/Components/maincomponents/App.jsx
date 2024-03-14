@@ -4,14 +4,14 @@ import {Inicio} from "../pages/Inicio.jsx";
 import {Contactenos} from "../pages/Contactenos";
 import './../../Stylesheets/App.css'
 import Footer from './Footer.jsx';
-import { Barranavegacion } from './Barranavegacion.jsx';
+// import { Barranavegacion } from './Barranavegacion.jsx';
 
 
 export function App() {
   return <div className="App">
      <body>
      <Router>
-        <Barranavegacion/>
+        {/* <Barranavegacion/> */}
         <Routes>
           <Route path='/' element={<Inicio/>}/>
           

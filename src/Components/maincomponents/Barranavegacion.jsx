@@ -11,10 +11,13 @@ export const Barranavegacion = () => {
         <header>
             <div> 
                 <nav>
+                    <Link to="/#seccioncuarta"><a href=""></a><button>Sección primera </button> </Link>
+
+                    <button>Sección primera </button>
                     <ul className={menuOpen ? "open" : ""} >
-                        <li className="padding-item">
+                        {/* <li className="padding-item">
                             <Link to="/">INICIO</Link>
-                        </li>
+                        </li> */}
                         
                         <li >
                             <Link to="/"> 
@@ -23,10 +26,11 @@ export const Barranavegacion = () => {
                                
                         </li> 
                        
-                        <li >
+                        {/* <li >
                             <Link to="/contactenos">AGENDA TU CITA</Link>
-                        </li>
+                        </li> */}
                     </ul>
+                    <Link to="/#seccioncuarta"><button >Sección primera </button> </Link>
                 </nav>
                       
             </div>

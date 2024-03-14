@@ -1,43 +1,50 @@
 
 
-.mision {
-    box-sizing: border-box;
-    min-height: 30vh;
-    color: whitesmoke;
-    align-items: center;
+@font-face {
+    font-family: 'NewMacchiato';
+    src: url('../assets/fonts/New\ Machiato.otf') format('truetype');
+  }
+
+nav {
+    display: flex;
     justify-content: center;
-    position: relative;
-    display: flex; 
-    border: 5px solid black ;
-    background: grey;
-    margin: 0%;
+    align-items: center;
+    background-color:#D89A9A;
+ /*position: absolute;*/
+    top: 20;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 7px;
+    list-style: none;  
+    
 }
 
-.vision {
-    box-sizing: border-box;
-    min-height: 30vh;
-    color: whitesmoke;
+
+nav ul {
+    display: flex;
+    gap: 10px; /* Adjust the gap between navbar items */
+    margin: 0;
+    padding: 0;
     align-items: center;
-    justify-content: center;
-    position: relative;
-    display: flex; 
-    border: 5px solid black ;
-    background: grey;
-    margin: 0%;
+    
 }
 
-.quienessomos {
-    box-sizing: border-box;
-    min-height: 30vh;
-    color: whitesmoke;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    display: flex; 
-    border: 5px solid black ;
-    background: grey;
-    margin: 0%;
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    color: gray;
+    font-family: 'NewMacchiato';
+ 
 }
+
+nav ul li a:not(.active):hover {
+    background-color:#d8d89a
+}
+
 
 .botonwhatsapp{
     
