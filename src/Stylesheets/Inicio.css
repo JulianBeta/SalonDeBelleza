@@ -45,6 +45,13 @@ nav ul li a:not(.active):hover {
     background-color:#d8d89a
 }
 
+.botonnavbar {
+   margin: auto 100px;
+   text-decoration: none;
+   color: #707070;
+   font-size: larger;
+
+}
 
 .botonwhatsapp{
     

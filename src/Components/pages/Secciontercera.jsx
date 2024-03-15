@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './../../Stylesheets/Slider.css';
+import './../../Stylesheets/seccionslider.css';
 import styled from 'styled-components';
 import img1 from './../../assets/image/1.jpg';
 import img2 from './../../assets/image/2.jpg';

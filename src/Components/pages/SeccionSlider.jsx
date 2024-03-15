@@ -1,19 +1,34 @@
 import React from 'react';
-
-import './../../Stylesheets/Slider.css';
+import './../../Stylesheets/seccionslider.css';
 import styled from 'styled-components';
 import img1 from './../../assets/image/1.jpg';
 import img2 from './../../assets/image/2.jpg';
 import img3 from './../../assets/image/3.jpg';
 import img4 from './../../assets/image/4.jpg';
+import Maincarrusel from './../carruselcomponents/maincarrusel.jsx'
+import img6 from './../../assets/image/peluquera.jpeg';
 
-export const SeccionSlider= () => {
+export const SeccionSlider = () => {
 	return (
-		<body>
-		<div>Sección segunda</div>
-		</body>
+
+		<section>
+			<div className='seccionslidercontenedor'>
+				<div className='tituloseccionslider'> NUESTROS SERVICIOS</div>
+				<div className='contenedorcarrusel'>
+
+					<div className='textotercero'>Texto</div>
+					<div className='carruseltercero'><Maincarrusel /> </div>
+				</div>
+			</div>
+		</section>
 	);
 }
 
+const Titulo = styled.p`
+		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	`;
 
 export default SeccionSlider;

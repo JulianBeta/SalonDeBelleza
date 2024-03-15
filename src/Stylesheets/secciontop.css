@@ -1,84 +1,46 @@
-.mision {
-    box-sizing: border-box;
-    min-height: 30vh;
-    color: whitesmoke;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    display: flex; 
-    border: 5px solid black ;
-    background: grey;
-    margin: 0%;
-}
-
-.vision {
-    box-sizing: border-box;
-    min-height: 30vh;
-    color: whitesmoke;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    display: flex; 
-    border: 5px solid black ;
-    background: grey;
-    margin: 0%;
-}
-
-.quienessomos {
-    box-sizing: border-box;
-    min-height: 30vh;
-    color: whitesmoke;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    display: flex; 
-    border: 5px solid black ;
-    background: grey;
-    margin: 0%;
-}
-
-.botonwhatsapp{
-    
-    position: absolute;
-    top: 400px;
-    background-color: #000;
-    right: 300px;
-    overflow: visible;
-    float: right;
-
-}
-
-
-section{
-    
-    position: relative;
-    top: 3px;
+.secciontopcontendor {
     width: 100%;
-    background-color: #F4ECE1;
-    padding: 50px;
-    
-    
+    height: 100%;
+    padding: 1% 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    overflow-wrap:break-word;
 }
+
 
 .fotopeluquera {
     position: relative;
     width: 60%;
-    float: left;
 }
 
 .textsectiontop {
-    width: 30%;
-    float: right;
+    
+    width: 60%;
+    padding-right: 5px;
+    position: absolute;
+    
 }
 
-.divmarcadeagua {
-    background-image: url("./../assets/image/flores.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.9;position: relative;
-    top: 3px;
-    width: 100%;
-    background-color: #F4ECE1;
-    padding: 50px;
+.textsectiontop p {
+    width: 60%;
+    padding-right: 5px;
+    position: absolute;
+}
+
+.botonwhatsapp{
     
+    position: relative;
+    width: 100%;
+    top: 35vh;
+    overflow: visible;
+    left: 1px;
+    background-color:transparent;
+
+}
+
+.botonwhatsapp a {
+    width: 200px;
+    text-decoration: none;
+    background-color:#D89A9A;
 }

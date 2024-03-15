@@ -13,37 +13,38 @@ import logo from './../../assets/image/Logo_SalonDeBelleza.png';
 
 
 export const Inicio = () => {
-  
+
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-  
+
     <div>
-<header>
-            <div> 
-                <nav>
-                  <a href="#seccioncuarta"> <button>Sección primera </button>  </a>
+      <header>
+        <div>
+          <nav>
+            <a className='botonnavbar' href="#seccionprimera"> CONÓCEME  </a>
+            <a className='botonnavbar'href="#seccionsegunda"> SERVICIOS </a>
+            
+            <ul className={menuOpen ? "open" : ""} >
 
-                    <button>Sección primera </button>
-                    <ul className={menuOpen ? "open" : ""} >
-                                          
-                        <li >
-                            <Link to="/"> 
-                                <img src = {logo} alt = 'logo' style={{ maxWidth: '100px', maxHeight: '50px' }} ></img>
-                            </Link>
-                               
-                        </li> 
-                                                            </ul>
-                    <Link to="/#seccioncuarta"><button >Sección primera </button> </Link>
-                </nav>
-                      
-            </div>
+              <li >
+                <Link to="/">
+                  <img src={logo} alt='logo' style={{ maxWidth: '100px', maxHeight: '50px' }} ></img>
+                </Link>
 
-        </header>
-        <div ><Secciontop id='#seccionprimera'/></div> 
-        <div id='#seccionsegunda'><SeccionSlider/></div>
-        <div id='#secciontercera'><Secciontercera/></div>
-        <div ><Seccioncontactenos id='#seccioncuarta'/></div>
-      
+              </li>
+            </ul>
+            <a className='botonnavbar' href="#secciontercera"> PRODUCTOS </a>
+            <a className='botonnavbar' href="#seccioncuarta"> CONTACTO </a>
+          </nav>
+
+        </div>
+
+      </header>
+      <div id='seccionprimera'><Secciontop /></div>
+      <div id='seccionsegunda'><SeccionSlider /></div>
+      <div id='secciontercera'><Secciontercera /></div>
+      <div id='seccioncuarta'><Seccioncontactenos /></div>
+
     </div>
   )
 

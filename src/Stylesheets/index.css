@@ -31,15 +31,17 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
+  border-radius: 35px;
+  border-color: #D89A9A;
   padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #D89A9A;
   cursor: pointer;
   transition: border-color 0.25s;
+  color: #D89A9A;
+  
 }
 button:hover {
   border-color: #646cff;

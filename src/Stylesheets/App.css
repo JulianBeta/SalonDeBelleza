@@ -20,15 +20,15 @@ htlm, header {
 html, body {
     
     width: 100%;
-    height: auto;
-    margin: auto;
     font-family: 'Gabarito';
     min-height: 100vh;
     background-color: #F4ECE1;
-    padding-top: 90px;
+    padding-top: 5vh;
+    padding-bottom: 5px;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
+    
     
     
 }
